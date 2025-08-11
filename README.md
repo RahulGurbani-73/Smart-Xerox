@@ -1,6 +1,6 @@
 # Smart-Xerox
 
-#Objective :    
+# Objective :    
 The primary objective of the Smart Xerox project is to revolutionize the traditional paper-based 
 xerox process by providing a comprehensive, user-centric, and efficient web application. This 
 application aims to streamline the entire printing experience, from order placement to final 
@@ -8,7 +8,7 @@ delivery, making it a convenient and hassle-free solution for users. By leveragi
 Smart Xerox seeks to eliminate the inefficiencies and frustrations associated with traditional xerox 
 centers, offering a superior alternative that caters to the evolving needs of modern users. 
 
-Project Description-    
+# Project Description-    
 Smart Xerox is a web application designed to streamline the traditional paper-based xerox 
 process, making it easier and more efficient for users. The application offers features such as: 
 Key Features: 
@@ -26,7 +26,7 @@ landscape) and single-sided or double-sided printing.
  Color Options: Options for color or black-and-white printing are available. 
  Customer Support: Integrated chat or support system for user assistance. 
 
-#Technologies Used
+# Technologies Used
 To Create Smart Xerox Project the following technologies are :
 
 Frontend : HTML , CSS, Javascript, Bootstrap
