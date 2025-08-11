@@ -30,7 +30,7 @@ landscape) and single-sided or double-sided printing.
 
 To Create Smart Xerox Project the following technologies are :
 
-/nFrontend : HTML , CSS, Javascript, Bootstrap
+Frontend : HTML , CSS, Javascript, Bootstrap
 Backend : PHP
 Database : MySQL
 
