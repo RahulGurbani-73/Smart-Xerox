@@ -1,6 +1,6 @@
 # Smart-Xerox
 
-Objective :    
+#Objective :    
 The primary objective of the Smart Xerox project is to revolutionize the traditional paper-based 
 xerox process by providing a comprehensive, user-centric, and efficient web application. This 
 application aims to streamline the entire printing experience, from order placement to final 
@@ -26,27 +26,14 @@ landscape) and single-sided or double-sided printing.
  Color Options: Options for color or black-and-white printing are available. 
  Customer Support: Integrated chat or support system for user assistance. 
 
-Client Side Module: 
-1. User Authentication: Secure registration & login with hashed passwords. 
-2. Order Placement: Easy navigation, file upload, and order submission. 
-3. PDF Upload: Supports multiple file formats for compatibility. 
-4. Secure Payments: Integrated payment gateway for safe transactions. 
-5. Real-Time Updates: Track order status from submission to completion. 
-6. Print Options: Choose orientation, color, and single/double-sided printing. 
-7. Customer Support: Integrated chat or support system. 
-8. Contact Us: Name, email, subject, message + CAPTCHA for spam prevention.
+#Technologies Used
+To Create Smart Xerox Project the following technologies are :
+
+Frontend : HTML , CSS, Javascript, Bootstrap
+Backend : PHP
+Database : MySQL
+
+#Installation
 
 
-Admin Side Module: 
-1. Order Management: Approve/reject and track requests in real time. 
-2. Unique Token Generator: Ensure accurate tracking & retrieval. 
-3. Print Access: Quick document access for printing. 
-4. Data Management: Secure and organized storage of information. 
-5. Time Optimization: Streamlined workflow for fast order processing. 
-6. Customer Support Tools: Chat, ticket system, and knowledge base. 
-7. Security Management: Authentication, monitoring, and regular updates. 
-8. Payment Management: Track transactions, handle refunds, and generate reports
-
-
-How to Install this:
 
