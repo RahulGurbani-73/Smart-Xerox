@@ -33,7 +33,7 @@ Frontend : HTML , CSS, Javascript, Bootstrap
 Backend : PHP
 Database : MySQL
 
-#Installation
+# Installation
 
 
 
