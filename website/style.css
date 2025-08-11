@@ -1,0 +1,196 @@
+/* ===============================================
+   Global Settings & Variables
+   =============================================== */
+   :root {
+    --primary-bg: rgba(225,254,234,1);
+    --secondary-bg: #B7E8EB;
+    --accent-bg: rgb(24,47,51);
+    --accent-light: rgb(0,224,190);
+    --text-color: white;
+    --transition-speed: 0.3s;
+    --underline-color: black;
+    --dashboard-move: -20px;
+  }
+  
+  /* Reset & Base Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', 'Noto Serif', serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* ===============================================
+     Backgrounds & Global Elements
+     =============================================== */
+  .background {
+    background: radial-gradient(ellipse at center, var(--primary-bg) 0%, var(--primary-bg) 35%, var(--secondary-bg) 100%);
+  }
+  
+  ul li a {
+    color: var(--text-color);
+  }
+  
+  /* ===============================================
+     Dashboard Image Animation
+     =============================================== */
+  img.dashboard {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+  }
+  
+  @-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(var(--dashboard-move)); }
+  }
+  @keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(var(--dashboard-move)); }
+  }
+  
+  /* ===============================================
+     Underline Animation
+     =============================================== */
+  .underline {
+    border-bottom: 3px solid var(--underline-color);
+    width: 100%;
+    animation: underline 1s infinite alternate ease-in;
+  }
+  
+  @keyframes underline {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+  
+  /* ===============================================
+     Custom Images & Shadows
+     =============================================== */
+  .custom-img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--text-color);
+    transition: all var(--transition-speed) ease;
+  }
+  
+  .custom-1 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .custom-2 {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  
+  /* ===============================================
+     Gradient Button
+     =============================================== */
+  .btn-grad {
+    background-image: linear-gradient(to right, var(--accent-bg) 0%, var(--accent-light) 51%, var(--accent-bg) 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-position 0.5s, transform 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+  .btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.03);
+  }
+  
+  /* ===============================================
+     Custom Dashboard & Icons
+     =============================================== */
+  .custom-dashboard {
+    background-color: var(--accent-bg);
+    margin: 1rem 0;
+    border-radius: 50%;
+  }
+  
+  .icon-color {
+    color: var(--accent-light);
+  }
+  
+  li a:hover {
+    background-color: var(--accent-light);
+    color: black;
+    border-radius: 15px;
+    transition: background-color 1s;
+  }
+  
+  /* Fancy Border Radius Element */
+  .fancy-border-radius {
+    border-radius: 37% 63% 47% 53% / 83% 50% 50% 17%;
+    width: 95%;
+    height: 100%;
+    margin: 45px -90px 0 0;
+    background: linear-gradient(to right, rgb(21,47,51), var(--accent-light));
+  }
+  
+  /* ===============================================
+     Table Row Styling (for data tables)
+     =============================================== */
+  tr {
+    color: var(--text-color);
+  }
+  tbody:nth-child(2n+1) {
+    background: rgb(0,165,255);
+  }
+  tbody:nth-child(2n) {
+    background: rgb(19,64,64);
+  }
+  
+  /* ===============================================
+     Modern Enhancements: Centering & Transitions
+     =============================================== */
+  /* Center tables easily by adding the class below */
+  .table-centered {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* ===============================================
+     Responsive Navigation (Sample Modern Adjustments)
+     =============================================== */
+  ul li a {
+    transition: color var(--transition-speed) ease;
+  }
+  ul li a:hover {
+    color: var(--accent-light);
+  }
+  
+  /* ===============================================
+     End of Modern CSS
+     =============================================== */
+
+
+     .container12 {
+      height: auto;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      background-color: #fcfcfc;
+    }
+    
+    .row1
+    {
+      height: auto;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  
