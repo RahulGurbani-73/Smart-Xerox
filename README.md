@@ -27,6 +27,7 @@ landscape) and single-sided or double-sided printing.
  Customer Support: Integrated chat or support system for user assistance. 
 
 # Technologies Used
+
 To Create Smart Xerox Project the following technologies are :
 
 Frontend : HTML , CSS, Javascript, Bootstrap
