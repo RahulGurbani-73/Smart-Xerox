@@ -32,6 +32,7 @@ To Create Smart Xerox Project the following technologies are :
 
 Frontend : HTML , CSS, Javascript, Bootstrap
 Backend : PHP
+Database : MySQL
 
 
 # Installation
